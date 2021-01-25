@@ -48,7 +48,7 @@ git clone git@github.com:Clemson-Software-Engineering/Shopping-App.git
 ## Getting Help
 Any questions or comments can be sent via email to one of the project admins. When emailing one of the admins please make sure to include the project name in the email subject!
 - Ankita Kulkarni: ankitak@g.clemson.edu
-- Caroline Kistler: email
+- Caroline Kistler: cekistl@g.clemson.edu
 - Jack Carroll: jcarro5@g.clemson.edu
 - Yash Ravindra R Doiphode: email
 
