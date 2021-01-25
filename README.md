@@ -22,7 +22,7 @@ This is a free open source project designed with the intent of creating an easy 
 ## Requirements
 This project utilizes Django and Angular. *Add modules that need to be installed for this project here*
 
-To use this project, you will need to clone thid repository. If you have not setup a ssh key for Github or need additional help using Github please refer here [github ssh help](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) and here [github support](https://support.github.com/) respectively.
+To use this project, you will need to clone this repository. If you have not setup a ssh key for Github or need additional help using Github please refer here [github ssh help](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) and here [github support](https://support.github.com/) respectively.
 
 ```sh
 git clone git@github.com:Clemson-Software-Engineering/Shopping-App.git
