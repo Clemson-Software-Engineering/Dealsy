@@ -17,9 +17,8 @@
 This is a free open source project designed with the intent of creating an easy to use web app to find deals and make shopping online a breeze. We plan to aggregate and scrape data from major marketplaces and online stores to help users find exactly what they are looking for at the best price. The application will sort from best deal to worst deal for the desired product. 
 
 ## Main Features
-Easily retrived information for specific products
-Search bar
-Wide range of products
+- Easily retrieve information for specific products (Planned)
+- Wide range of products (Planned)
 
 ## Requirements
 This project utilizes Django and Angular. *Add modules that need to be installed for this project here*
