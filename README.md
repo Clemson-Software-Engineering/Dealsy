@@ -50,7 +50,7 @@ Any questions or comments can be sent via email to one of the project admins. Wh
 - Ankita Kulkarni: ankitak@g.clemson.edu
 - Caroline Kistler: cekistl@g.clemson.edu
 - Jack Carroll: jcarro5@g.clemson.edu
-- Yash Ravindra R Doiphode: email
+- Yash Doiphode: ydoipo@g.clemson.edu
 
 ## Discussions
 All development discussions take place on Github in this repo by opening an issue as we don't currently have any community chat available for this project.
