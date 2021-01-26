@@ -16,6 +16,8 @@
 ## Introduction
 This is a free open source project designed with the intent of creating an easy to use web app to find deals and make shopping online a breeze. We plan to aggregate and scrape data from major marketplaces and online stores to help users find exactly what they are looking for at the best price. The application will sort from best deal to worst deal for the desired product. 
 
+*This project is currently in a pre-alpha stage.*
+
 ## Main Features
 - Easily retrieve information for specific products (Planned)
 - Wide range of products (Planned)
