@@ -1,0 +1,11 @@
+<div class="home">
+    <div class="search">
+        <div class="p-formgroup-inline">
+            <div class="p-field">
+                <label for="Search" class="p-sr-only">Search</label>
+                <input type="text" pInputText [(ngModel)]="searchTerm" placeholder="search for deals...">
+            </div>
+            <button pButton pRipple type="button" (click)="searchDeals()" label="Search" icon="pi pi-search" class="p-button-rounded p-button-help"></button>
+        </div>
+    </div>
+</div>
