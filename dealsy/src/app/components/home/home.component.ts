@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,16 +7,8 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  searchTerm: string;
-
-  constructor(private router: Router) {}
+  constructor() {}
 
   ngOnInit(): void {}
-
-  searchDeals() {
-    if(this.searchTerm !== undefined && this.searchTerm !== '') {
-      this.router.navigate(['search'], { queryParams: { query: this.searchTerm } });
-    }
-  }
 
 }
