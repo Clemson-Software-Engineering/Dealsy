@@ -1,9 +1,42 @@
-.header-toolbar
+.container
   display: flex
-  justify-content: center
+  flex-direction: column
+  height: 100vh
+
+header
+  flex-shrink: 0
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 11
+  transition: all 250ms ease-in-out
+
+.header-toolbar
+  @extend header
+  &.hidden
+    opacity: 0
+
+.search-block
+  width: 0%
+  right: 0
+  @extend header
+  background: #fff
+  &.active
+    width: 100%
+
+  .search-control
+    flex: 1
+    font-size: 1rem
+    border: 0
+    outline: none
+    padding-left: 10px
+
+main
+  flex: 1 0 auto
+  margin-top: 75px
 
 .footer-toolbar
-  position: fixed
+  flex-shrink: 0
   width: 100%
   right: 0rem
   bottom: 0rem
