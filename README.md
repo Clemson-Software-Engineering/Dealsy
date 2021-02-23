@@ -28,7 +28,7 @@ This project utilizes Django and Angular. *Add modules that need to be installed
 To use this project, you will need to clone this repository. If you have not setup a ssh key for Github or need additional help using Github please refer here [github ssh help](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) and here [github support](https://support.github.com/) respectively.
 
 ```sh
-git clone git@github.com:Clemson-Software-Engineering/Shopping-App.git
+git clone git@github.com:Clemson-Software-Engineering/Dealsy.git
 ```
 
 *add additional requirements here*
@@ -63,6 +63,6 @@ All contributions, bug reports, bug fixes, documentation improvements, enhanceme
 
 A detailed overview on how to contribute can be found in the **[contributing guide](CONTRIBUTING.md)**.
 
-If you are simply looking to start working with the codebase, navigate to the [GitHub "issues" tab](https://github.com/Clemson-Software-Engineering/Shopping-App/issues) and start looking through interesting issues. There are a number of issues listed under [Docs](https://github.com/Clemson-Software-Engineering/Shopping-App/issues?q=is%3Aopen+sort%3Aupdated-desc+label%3ADocs) and [good first issue](https://github.com/Clemson-Software-Engineering/Shopping-App/issues?labels=good+first+issue&sort=updated&state=open) where you could start out.
+If you are simply looking to start working with the codebase, navigate to the [GitHub "issues" tab](https://github.com/Clemson-Software-Engineering/Dealsy/issues) and start looking through interesting issues. There are a number of issues listed under [Docs](https://github.com/Clemson-Software-Engineering/Dealsy/issues?q=is%3Aopen+sort%3Aupdated-desc+label%3ADocs) and [good first issue](https://github.com/Clemson-Software-Engineering/Dealsy/issues?labels=good+first+issue&sort=updated&state=open) where you could start out.
 
 As contributors and maintainers to this project, you are expected to abide by this projects code of conduct. More information can be found in the **[Contributor Code of Conduct](CODE_OF_CONDUCT.md)**.
