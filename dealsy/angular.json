@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "dealsy"
+  "defaultProject": "dealsy",
+  "cli": {
+    "analytics": "93530770-4bcf-4f4b-bd6d-90d8876886e1"
+  }
 }
