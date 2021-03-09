@@ -28,7 +28,7 @@ import {SearchService} from './services/search.service'
     ReactiveFormsModule,
     MaterialModule,
     PrimeNGModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [
     SearchService
