@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 import pprint
 import re
 import sys
-
+import urllib.parse
+from urllib.parse import urlparse
 
 app=Flask(__name__)
 
@@ -31,6 +32,21 @@ print(len(soup.find_all('span',{'class':'HRLxBb'})))
 
 
 #@app.route('/')
+
+def link_extractor(link):
+	
+	a = link.get('href')
+	b = re.search("(?P<url>https?://[^\s]+)", a)
+	c = b.group(0)
+	rul = c.split('&')[0]
+#print(rul)
+	domain = urlparse(rul)
+#print(rul)
+	if not (re.search('google.com', domain.netloc)):
+		html = requests.get(url)
+		if html.status_code==200: # takes more time, can be skipped
+			return rul
+
 
 def scrape():
 	
@@ -59,7 +75,11 @@ def scrape():
 				freeshiping = "Shipping details unavailable!"
 			image= el.find('div',class_='oR27Gd')
 			image=image.img["src"]
-			arr.append({'title':title,'price':price, "rating":ratings, "freeshiping":freeshiping, "image":image, })
+						
+			link = el.find('a')
+			#print(link)
+			p_link = link_extractor(link)
+			arr.append({'title':title,'price':price, "rating":ratings, "freeshiping":freeshiping, "image":image,'link':p_link })
 			
 
 	
