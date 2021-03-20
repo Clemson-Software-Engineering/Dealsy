@@ -1,7 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { Table } from 'primeng/table';
-import {InputTextModule} from 'primeng/inputtext';
-import {MatInputModule} from '@angular/material/input';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',

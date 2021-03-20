@@ -14,16 +14,16 @@
 - [Contributing](#contributing)
 
 ## Introduction
-This is a free open source project designed with the intent of creating an easy to use web app to find deals and make shopping online a breeze. We plan to aggregate and scrape data from major marketplaces and online stores to help users find exactly what they are looking for at the best price. The application will sort from best deal to worst deal for the desired product. 
+This is a free open source project designed with the intent of creating an easy to use web app to find deals and make shopping online a breeze. We plan to aggregate and scrape data from major marketplaces and online stores to help users find exactly what they are looking for at the best price. The application will sort from best deal to worst deal for the desired product.
 
-*This project is currently in a pre-alpha stage.*
+*This project is currently in a alpha stage.*
 
 ## Main Features
 - Easily retrieve information for specific products (Planned)
 - Wide range of products (Planned)
 
 ## Requirements
-This project utilizes Django and Angular. *Add modules that need to be installed for this project here*
+This project utilizes Flask and Angular. *Add modules that need to be installed for this project here*
 
 To use this project, you will need to clone this repository. If you have not setup a ssh key for Github or need additional help using Github please refer here [github ssh help](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) and here [github support](https://support.github.com/) respectively.
 
@@ -37,10 +37,26 @@ git clone git@github.com:Clemson-Software-Engineering/Dealsy.git
 *add code style here if any*
 
 ## Getting Started
-*add steps for getting started here*
+
+To run the backend flask app, you will need to pip install the dependencies and call flask run using the following commands:
+
+```sh
+cd backend/
+pip install -r requirements.txt
+flask run
+```
+
+To view the frontend, you will need to nagivate to the frontend and npm install the node modules with the following commands:
+
+```sh
+cd frontend/
+npm install
+ng s -o
+```
 
 ## How To Use
-*add steps for how to use actual project*
+
+After you get the frontend up and running you can use the search bar in the upper right corner to search for a product, ex. "microwave" and hit the enter key to view the results!
 
 ## Documentation
 *add link and info for documentation here*
