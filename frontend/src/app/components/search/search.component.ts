@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
 
     ngOnInit() {
       this.route.queryParams.subscribe(params => {
-        this.searchService.getFakeDeals(params.query).then(deals => {
+        this.searchService.getDeals(params.query).then(deals => {
           this.deals = deals;
           this.loading = false;
         });
