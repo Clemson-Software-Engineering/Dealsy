@@ -19,7 +19,7 @@
       <button class="search-icon" mat-icon-button disabled>
         <mat-icon>search</mat-icon>
       </button>
-      <input (keydown.enter)="searchDeals($event.target.value)" class="search-control" type="text" placeholder="Search" [(ngModel)]="searchText" #searchbar >
+      <input (keydown.enter)="searchDeals($event.target.value)" class="search-control" type="text" placeholder="Search Dealsy" [(ngModel)]="searchText" #searchbar >
       <button mat-button mat-icon-button (click)="searchClose()">
         <mat-icon>close</mat-icon>
       </button>
